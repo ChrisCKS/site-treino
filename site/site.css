@@ -1,0 +1,46 @@
+#div_times{
+    background-color: #808080;
+    padding-bottom: 5%;
+    text-align: center;
+    margin: 50px 0px 50px 0px;
+}
+
+.cartao{
+    border-radius: 150px;
+background: #c2c2c2;
+box-shadow:  35px 35px 70px #a1a1a1,
+             -35px -35px 70px #e3e3e3;
+    padding: 80%;
+}
+
+#div_menu{
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+    background-color: green;
+    color: white;
+    height: 200px;
+}
+.div_principal_classe{
+    background-color: white;
+}
+.imagem_cabeçalho{
+    width: 100%;
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    margin: 0%;
+}
+
+a{
+    text-decoration: none;
+}
+.logos{
+    flex-direction: row;
+    justify-content: space-evenly;
+    display: flex;
+    align-items: center;
+}
