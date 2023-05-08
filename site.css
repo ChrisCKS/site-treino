@@ -6,12 +6,13 @@
 }
 
 .cartao{
-    border-radius: 150px;
-background: #c2c2c2;
-box-shadow:  35px 35px 70px #a1a1a1,
-             -35px -35px 70px #e3e3e3;
-    padding: 80%;
+  border-radius: 150px;
+  background: white;
+  box-shadow: 35px 35px 70px white, -35px -35px 70px white;
+  padding: 40%;
+  overflow: hidden;
 }
+
 
 #div_menu{
     text-align: center;
