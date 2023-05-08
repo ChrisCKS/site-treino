@@ -1,76 +1,75 @@
 <!DOCTYPE html>
-<html lang "pt-br">
+<html lang= "pt-br">
 
 <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../site.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, intial-scale=1.0">
-    <title>HOME - Camisas de time</title>
+    <title>TABELA - Medidas</title>
 
 </head>
 
-<body style="font-family: Verdana; font-size: 16px;">
-    <table align="center" width="1300px">
-        <tr>
-            <center>
-                <img src="../imagens/fundo.jpeg" alt="Banner do site camisas de time" title="Camisas de Time">
+<body style="font-family: 'Fira Sans', sans-serif; font-size: 16px;">
 
-            </center>
-        </tr>
+    <header>
+        <div>
+            <img src="../imagens/fundo.jpeg" class="imagem_cabeçalho">
+        </div>
 
-        <tr>
-            <th heigth="35px">
-                <a href="../">HOME</a> &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;
-                <a href="../tabela">TABELA</a> &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;
-                <a href="#">CONTATO</a>
 
-            </th>
+        <div id="div_menu">
+            <a href="../">HOME</a> &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;
+            <a href="tabela">TABELA</a> &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;
+        </div>
+    </header>
 
-        <tr height="400px">
-            <td>
-                <h1>Nossa tabela de medidas</h1>
+    <div class="div_principal_classe">
+        <h1>Tabela de Medidas</h1>
+    </div>
 
-            </td>
-        </tr>
-
-        <style>
-
-            table{
-            width: 500px; height: 500;
+    <style>
+        table {
+            width: 500px;
+            height: 500;
             border-collapse: collapse;
-            }
-            
-            tr.linha{
+        }
+
+        tr.linha {
             background-color: green;
-            }
-            </style>
-            
-            <table border="3" align="center">
-            
-            <tr>
-                <tr class="linha">
-                <th>TAMANHO</th>
-                <th>ALTURA</th>
-                <th>LARGURA</th>
-            </tr>
-            <tr>
-                <td><b>P</b></td>
-                <td>68</td>
-                <td>51</td>
-            </tr>
-            <tr>
-                <td><b>M</b></td>
-                <td>70</td>
-                <td>53</td>
-            </tr>
-            <tr>
-                <td><b>G</b></td>
-                <td>73</td>
-                <td>56</td>
-            </tr>
-            <td><b>GG</b></td>
-            <td>79</td>
-            <td>61</td>
-            
-            </table>
-        
+        }
+    </style>
+
+    <table border="3" align="center">
+
+        <tr>
+        <tr class="linha">
+            <th>TAMANHO</th>
+            <th>ALTURA</th>
+            <th>LARGURA</th>
+        </tr>
+        <tr>
+            <td><b>P</b></td>
+            <td>68</td>
+            <td>51</td>
+        </tr>
+        <tr>
+            <td><b>M</b></td>
+            <td>70</td>
+            <td>53</td>
+        </tr>
+        <tr>
+            <td><b>G</b></td>
+            <td>73</td>
+            <td>56</td>
+        </tr>
+        <td><b>GG</b></td>
+        <td>79</td>
+        <td>61</td>
+
+    </table>
 </body>
+
+</html>
